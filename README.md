@@ -18,14 +18,22 @@ To get started with this tooling, follow these steps:
    cd train-journey-pricing-tooling
    ```
 
-2. **Install Dependencies**:
+2. **Create virtual environment**
+    ```bash
+    python -m venv .venv
+    . ./.venv/bin/activate
+    ```
+    (Or whatever you relevant activate is for your OS and terminal)
+
+3. **Install Dependencies**:
    Ensure you have the necessary dependencies installed. For Python, you can use:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Configuration**:
-   Update the configuration files with your API keys and other necessary settings. Refer to `.credentials.example` for a template.
+4. **Configuration**:
+   Update the configuration files with your API keys and other necessary settings. Refer to `.env.example` for a template.
+
 
 ## License
 
